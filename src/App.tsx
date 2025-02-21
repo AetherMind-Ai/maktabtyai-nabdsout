@@ -121,7 +121,7 @@ function App() {
         };
     }, [chatState.selectedLanguage]); // Re-initialize on language change
 
-    const mindbot_api_url = "https://mindbotai.netlify.app/v1/models/mindbot1-4/request/";
+    const mindbot_api_url = "https://mindbotai.netlify.app/v1/models/mindbot1-4/request";
     const mindbot_api_key = "AIzaSyDqW-hIok?c9Q-D11uklsnK6M-M";
     console.log("Connect Succefully to ",mindbot_api_url);
 
